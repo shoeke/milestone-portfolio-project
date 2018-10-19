@@ -1,0 +1,142 @@
+.face {
+  height: 360px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@keyframes slideEye {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-12px, 0);
+  }
+  66% {
+    transform: translate(12px, 0);
+  }
+}
+
+#eyes {
+  animation-name: slideEye;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes eyeSquint {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 8.0px);
+  }
+  75% {
+    transform: translate(0, 8.0px);
+  }
+}
+
+
+.lids{
+  animation-name: eyeSquint;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes browRaiseRight {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0, -12px);
+  }
+  40% {
+    transform: translate(-3px, 15px);
+  }
+  85% {
+    transform: translate(0, -9px);
+  }
+}
+
+@keyframes browRaiseLeft {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -9px);
+  }
+
+  85% {
+    transform: translate(0, -9px);
+  }
+}
+
+.brow2 {
+  animation-name: browRaiseRight;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.brow1 {
+  animation-name: browRaiseLeft;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#flowers {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;}
+    33% {
+      opacity: .6;
+    }
+    50% {
+      opacity: .2
+    }
+    66% {
+      opacity: .8;
+    }
+    33% {
+      opacity: .6;
+    }
+    50% {
+      opacity: .2
+    }
+    66% {
+      opacity: .8;
+    }
+    75% {
+      opacity: .3;
+    }
+    85% {
+      opacity: .7
+    }
+    100% {
+      opacity: 1;
+    }
+}
+#earrings {
+  transform: translate(10px, -4px);
+  animation-name: drop;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes drop {
+  0% {
+    transform: translate( 10px, -4px);
+  }
+  100% {
+    transform: translate( 0, 160px);
+  }
+}
+#hair {
+  color: blue;
+  border: 2px solid pink;
+}

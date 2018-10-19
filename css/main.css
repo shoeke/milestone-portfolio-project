@@ -170,3 +170,11 @@ nav a {
 .sabrina, .sabrina h3, .sabrina h4 {
   color: #fff;
 }
+
+/*IFRAME PLAY*/
+
+iframe {
+  margin-left: 95px;
+  object-fit: contain;
+  object-position: center;
+}
