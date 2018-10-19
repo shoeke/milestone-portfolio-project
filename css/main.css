@@ -17,7 +17,7 @@ header {
 .title-block {
   width: 70%;
   margin-left: 100px;
-  padding-top: 100px;
+  padding-top: 62px;
   float: left;
 }
 
@@ -34,12 +34,11 @@ nav li {
   top: 0px;
 }
 main {
-  clear: both;
   padding: 0 100px 0 100px;
 }
 .project-unit {
   width: 545px;
-  height: 560px;
+  padding-bottom: 1.5em;
 }
 
 .float-left {
@@ -52,7 +51,7 @@ main {
   clear: both;
 }
 .project-unit p {
-  margin: 12px 0 12px 0;
+  margin: 1em 0 .5em 0;
 }
 .h-rule {
   width: 100%;
@@ -61,13 +60,27 @@ main {
   margin-bottom: 30px;
 }
 .sabrina {
+  height: 680px;
   background-image: url("../img/AboutBackground.jpg");
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.sabrina img {
+  padding-left: 180px;
+}
+.about {
+  width: 545px;
+  float: right;
+  padding: 50px 100px 100px 100px;
 }
 /* FONTS*/
-body {
+html {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  line-height: 26px;
+
+}
+body {
+  line-height: 1.5em;
   color: #0d142b;
 }
 h1, h3 {
@@ -84,7 +97,7 @@ h2 {
   text-transform: uppercase;
   font-size: 50px;
   margin-top: 1.25em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2.2em;
 }
 h3 {
   font-size: 69px;
@@ -118,4 +131,7 @@ nav a {
   font-weight: 700;
   text-decoration: none;
   color: #0d142b;
+}
+.sabrina, .sabrina h3, .sabrina h4 {
+  color: #fff;
 }
