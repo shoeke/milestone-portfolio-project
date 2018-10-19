@@ -58,10 +58,12 @@ main {
   display: block;
   clear: both;
 }
-/*hold
-.clear {
-  clear: both;
-}*/
+
+.img-holder {
+  width: 545px;
+  height: 360px;
+}
+
 #holstee-img {
   padding: 0 140px 0 140px;
 }
