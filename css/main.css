@@ -73,6 +73,15 @@ main {
   float: right;
   padding: 50px 100px 100px 100px;
 }
+.icons {
+  display: flex;
+  padding: 20px 500px 50px 500px;
+  justify-content: space-around;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 50px;
+}
 /* FONTS*/
 html {
   font-family: 'Montserrat', sans-serif;
