@@ -50,6 +50,9 @@ main {
 .clear {
   clear: both;
 }
+#holstee-img {
+  padding: 0 140px 0 140px;
+}
 .project-unit p {
   margin: 1em 0 .5em 0;
 }
@@ -82,6 +85,10 @@ footer p {
   text-align: center;
   padding-bottom: 50px;
 }
+
+
+
+
 /* FONTS*/
 html {
   font-family: 'Montserrat', sans-serif;
