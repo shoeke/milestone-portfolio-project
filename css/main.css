@@ -60,6 +60,9 @@ main {
   background-color: #404e74;
   margin-bottom: 30px;
 }
+.sabrina {
+  background-image: url("../img/AboutBackground.jpg");
+}
 /* FONTS*/
 body {
   font-family: 'Montserrat', sans-serif;
