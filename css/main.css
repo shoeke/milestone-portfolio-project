@@ -141,11 +141,13 @@ h5 {
 nav li {
   padding: .75em;
 }
+a {
+  text-decoration: none;
+}
 nav a {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 700;
-  text-decoration: none;
   color: #0d142b;
 }
 .sabrina, .sabrina h3, .sabrina h4 {
