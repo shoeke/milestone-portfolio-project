@@ -33,6 +33,24 @@ nav li {
   margin-bottom: 1em;
   top: 0px;
 }
+main {
+  clear: both;
+  padding: 0 100px 0 100px;
+}
+.project-unit {
+  width: 545px;
+  height: 600px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
 /* FONTS*/
 body {
   font-family: 'Montserrat', sans-serif;
@@ -53,6 +71,12 @@ h2 {
   font-size: 50px;
   margin-top: .5em;
   margin-bottom: 1.25em;
+}
+h3 {
+  font-size: 69px;
+  text-align: center;
+  color: #404e74;
+  margin: 50px;
 }
 
 .title-block p {
